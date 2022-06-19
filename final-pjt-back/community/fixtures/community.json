@@ -1,0 +1,114 @@
+[
+    {
+        "model": "community.question",
+        "pk": 1,
+        "fields": {
+            "title": "보스베이비 vs 컨저링",
+            "field": "genre"
+        }
+    },
+    {
+        "model": "community.question",
+        "pk": 2,
+        "fields": {
+            "title": "너의 이름은 vs 닥터 스트레인지: 대혼돈의 멀티버스",
+            "field": "genre"
+        }
+    },
+    {
+        "model": "community.question",
+        "pk": 3,
+        "fields": {
+            "title": "씽2게더 vs 분노의 질주",
+            "field": "genre"
+        }
+    },
+    {
+        "model": "community.question",
+        "pk": 4,
+        "fields": {
+            "title": "나는 mbti N vs 나는 mbti S",
+            "field": "genre"
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 1,
+        "fields": {
+            "question": 1,
+            "content": "보스베이비",
+            "property": "16",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 2,
+        "fields": {
+            "question": 1,
+            "content": "컨저링",
+            "property": "27",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 3,
+        "fields": {
+            "question": 2,
+            "content": "너의 이름은",
+            "property": "10749",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 4,
+        "fields": {
+            "question": 2,
+            "content": "닥터 스트레인지: 대혼돈의 멀티버스",
+            "property": "28",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 5,
+        "fields": {
+            "question": 3,
+            "content": "씽2게더",
+            "property": "10402",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 6,
+        "fields": {
+            "question": 3,
+            "content": "분노의 질주",
+            "property": "80",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 7,
+        "fields": {
+            "question": 4,
+            "content": "나는 mbti N",
+            "property": "14",
+            "select_users": []
+        }
+    },
+    {
+        "model": "community.answer",
+        "pk": 8,
+        "fields": {
+            "question": 4,
+            "content": "나는 mbti S",
+            "property": "878",
+            "select_users": []
+        }
+    }
+]
